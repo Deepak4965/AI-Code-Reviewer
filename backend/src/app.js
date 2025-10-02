@@ -12,7 +12,7 @@ const _dirname = path.resolve()
 app.use(express.json())
 
 const corsOptions = {
-    origin: "http://localhost:5173",
+    origin: "https://ai-code-reviewer-vkaj.onrender.com",
     credentials: true
 }
 app.use(cors())
